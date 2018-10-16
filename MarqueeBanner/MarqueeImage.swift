@@ -7,11 +7,7 @@
 //
 import UIKit
 
-protocol MarqueeViewDelegate: class {
-    func tapFromMarqueeBannerIndex(index: Int)
-}
-
-class MarqueeView: UIView {
+class MarqueeImage: UIView {
     weak var delegate: MarqueeViewDelegate?
     
     enum MarqueeViewDirection {
@@ -169,7 +165,7 @@ class MarqueeView: UIView {
     }
 }
 
-extension MarqueeView: UIScrollViewDelegate {
+extension MarqueeImage: UIScrollViewDelegate {
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         stopTimer()
     }

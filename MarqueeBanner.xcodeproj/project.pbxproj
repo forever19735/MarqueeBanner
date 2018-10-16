@@ -12,18 +12,20 @@
 		DF31C89B217581D9004BD98E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF31C899217581D9004BD98E /* Main.storyboard */; };
 		DF31C89D217581DE004BD98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF31C89C217581DE004BD98E /* Assets.xcassets */; };
 		DF31C8A0217581DE004BD98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF31C89E217581DE004BD98E /* LaunchScreen.storyboard */; };
-		DF31C8A8217587FB004BD98E /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31C8A7217587FB004BD98E /* MarqueeView.swift */; };
+		DF31C8A8217587FB004BD98E /* MarqueeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31C8A7217587FB004BD98E /* MarqueeImage.swift */; };
+		DF31C8AB2175943D004BD98E /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF31C8AA2175943D004BD98E /* MarqueeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF31C892217581D9004BD98E /* MarqueeBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MarqueeBanner.app; path = "/Users/john.lin/Documents/MarqueeBanner/build/Debug-iphoneos/MarqueeBanner.app"; sourceTree = "<absolute>"; };
 		DF31C895217581D9004BD98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF31C897217581D9004BD98E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF31C89A217581D9004BD98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF31C89C217581DE004BD98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF31C89F217581DE004BD98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF31C8A1217581DE004BD98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF31C8A7217587FB004BD98E /* MarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeView.swift; sourceTree = "<group>"; };
+		DF31C8A7217587FB004BD98E /* MarqueeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeImage.swift; sourceTree = "<group>"; };
+		DF31C8A921759205004BD98E /* MarqueeBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF31C8AA2175943D004BD98E /* MarqueeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				DF31C894217581D9004BD98E /* MarqueeBanner */,
+				DF31C8A921759205004BD98E /* MarqueeBanner.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +56,8 @@
 				DF31C89C217581DE004BD98E /* Assets.xcassets */,
 				DF31C89E217581DE004BD98E /* LaunchScreen.storyboard */,
 				DF31C8A1217581DE004BD98E /* Info.plist */,
-				DF31C8A7217587FB004BD98E /* MarqueeView.swift */,
+				DF31C8A7217587FB004BD98E /* MarqueeImage.swift */,
+				DF31C8AA2175943D004BD98E /* MarqueeLabel.swift */,
 			);
 			path = MarqueeBanner;
 			sourceTree = "<group>";
@@ -75,7 +79,7 @@
 			);
 			name = MarqueeBanner;
 			productName = MarqueeBanner;
-			productReference = DF31C892217581D9004BD98E /* MarqueeBanner.app */;
+			productReference = DF31C8A921759205004BD98E /* MarqueeBanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,8 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF31C898217581D9004BD98E /* ViewController.swift in Sources */,
+				DF31C8AB2175943D004BD98E /* MarqueeLabel.swift in Sources */,
 				DF31C896217581D9004BD98E /* AppDelegate.swift in Sources */,
-				DF31C8A8217587FB004BD98E /* MarqueeView.swift in Sources */,
+				DF31C8A8217587FB004BD98E /* MarqueeImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
